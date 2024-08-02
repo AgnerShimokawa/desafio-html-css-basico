@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-tabela {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table th, table td {
+    color: white;
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.cabecalho-moda th {
+    background-color: #bb86fc;
+    font-weight: bold;
+}
+
+.cabecalho-casa th {
+    background-color: #00c4b4;
+    font-weight: bold;
+}
+
+.valores-moda td, .valores-casa td {
+    background-color: #424250;
+}
